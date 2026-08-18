@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin | FaZe_Elbossito69</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <section id="loginView" class="panel login-panel">
+      <div class="logo">F</div><p class="eyebrow">ESPACE PRIVÉ</p><h1>Administration</h1>
+      <p>Connecte-toi pour modifier ton site.</p>
+      <form id="loginForm"><label>Mot de passe<input id="password" type="password" autocomplete="current-password" required></label><button>SE CONNECTER</button><p id="loginError" class="error"></p></form>
+    </section>
+
+    <section id="adminView" hidden>
+      <header class="topbar"><div><p class="eyebrow">FAZE_ELBOSSITO69</p><h1>Tableau de bord</h1></div><div class="actions"><a href="/" target="_blank">Voir le site ↗</a><button id="logout" class="secondary">Déconnexion</button></div></header>
+      <form id="contentForm" class="grid">
+        <div class="panel"><h2>Accueil</h2><label>Nom du site<input name="brand"></label><label>Petit titre<input name="eyebrow"></label><label>Slogan<input name="tagline"></label></div>
+        <div class="panel"><h2>À propos</h2><label>Présentation<textarea name="aboutIntro"></textarea></label><label>Texte<textarea name="aboutText"></textarea></label><label>Phrase finale<textarea name="aboutCta"></textarea></label></div>
+        <div class="panel"><h2>Réseaux</h2><label>YouTube<input name="youtube" type="url"></label><label>Twitch<input name="twitch" type="url"></label><label>TikTok<input name="tiktok" type="url"></label><label>Instagram<input name="instagram" type="url"></label><label>Discord<input name="discord" type="url"></label><label>X<input name="x" type="url"></label></div>
+        <div class="panel"><h2>Statistiques</h2><label>YouTube<input name="youtubeStats"></label><label>Twitch<input name="twitchStats"></label><label>Expérience<input name="experienceStats"></label><label>Tournois<input name="tournamentsStats"></label></div>
+        <div class="savebar"><span id="status"></span><button>💾 ENREGISTRER LES MODIFICATIONS</button></div>
+      </form>
+    </section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>

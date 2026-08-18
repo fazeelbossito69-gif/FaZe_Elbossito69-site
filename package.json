@@ -1,0 +1,13 @@
+{
+  "name": "faze-elbossito69-site",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Site FaZe_Elbossito69 avec espace administrateur",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0"
+  }
+}

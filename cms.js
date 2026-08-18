@@ -1,0 +1,1 @@
+(async()=>{try{const r=await fetch('/api/content');if(!r.ok)return;const d=await r.json();document.querySelectorAll('[data-cms]').forEach(el=>{const k=el.dataset.cms;if(d[k]!==undefined)el.textContent=d[k]});document.querySelectorAll('[data-cms-href]').forEach(el=>{const k=el.dataset.cmsHref;if(d[k]!==undefined)el.href=d[k]})}catch(e){console.warn('CMS indisponible',e)}})();

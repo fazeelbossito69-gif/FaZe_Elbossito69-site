@@ -1,0 +1,17 @@
+COMMENT CREER TON MOT DE PASSE
+
+1. Ouvre le fichier .env
+2. Trouve cette ligne :
+   ADMIN_PASSWORD=Seanenzo160209080122#
+
+3. Remplace uniquement ECRIS_TON_MOT_DE_PASSE_ICI par ton mot de passe.
+   Exemple :
+   ADMIN_PASSWORD=MonSuperMotDePasse!2026
+
+4. Enregistre le fichier.
+
+IMPORTANT :
+- Ne partage jamais ton fichier .env.
+- N'utilise pas un mot de passe que tu utilises déjà ailleurs.
+- Quand tu mettras le site en ligne, le mot de passe devra idéalement être défini
+  dans les variables d'environnement de l'hebergeur plutôt que dans un fichier public.
