@@ -2,7 +2,7 @@ COMMENT CREER TON MOT DE PASSE
 
 1. Ouvre le fichier .env
 2. Trouve cette ligne :
-   ADMIN_PASSWORD=Seanenzo160209080122#
+   ADMIN_PASSWORD=Seanenzo160209
 
 3. Remplace uniquement ECRIS_TON_MOT_DE_PASSE_ICI par ton mot de passe.
    Exemple :
